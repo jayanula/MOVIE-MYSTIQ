@@ -8,7 +8,7 @@
   
     "env": {
       "SESSION_ID": {
-        "description": "Put your session id.",
+        "description": "kPNQFbjQ#vwVgO5tLhpJOsmWs6Fpp_ajfBx9RD2wox_r7NCafThY",
         "required": true
       },  
       "METHOD": {
@@ -17,12 +17,12 @@
       },  
       "ALWAYS_ONLINE": {
         "description": "Type true or false for make your whatsapp account always online or offline.",
-        "required": false
+        "required": true
       },
       
       "MAX_SIZE": {
         "description": "Maximum size for download videos.",
-        "required": false
+        "required": true
       },
 
       "ONLY_GROUP": {
@@ -37,7 +37,7 @@
 
       "ALIVE": {
         "description": "Alive message for bot.",
-        "required": false
+        "required": true
       }
   },
   
